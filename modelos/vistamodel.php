@@ -4,15 +4,14 @@
 		/*---Modelo para obtener las vsitas----*/
 		protected static function obtener_vistas_modelo($vistas){
 
-			$listaBlanca=[];
+			$listaBlanca = ["home","client-list"];
 			if (in_array($vistas, $listaBlanca)){
 				if(is_file("./vistas/contenidos/".$vistas."-view.php")){
 					$contenido="./vistas/contenidos/".$vistas."-view.php";
-				}else{
-					
+				}else
+				$contenido="404";					
 				}
-			}elseif
-			($vistas=="login" || $vistas=="index"){
+			}elseif($vistas=="login" || $vistas=="index"){
 
 				$contenido="login";
 

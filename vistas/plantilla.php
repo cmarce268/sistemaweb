@@ -7,7 +7,21 @@
    <?php include "./vistas/inc/Link.php"; ?>
 </head>
 <body>
-	
+	<?php
+		$peticionAjax=false;
+	    require_once"./controladores/vistascontroller.php";	
+    	$IV = new vistascontroller();
+
+    	$vistas=$IV->obtener_vistas_controlador();
+
+    	if($vistas=="login" || $vistas=="404"){
+
+    		require_once "./vistas/contenidos/". vistas."-view.php";
+    	}else{
+
+
+    	
+    ?>
 	<!-- Main container -->
 	<main class="full-box main-container">
 		<!-- Nav lateral -->
@@ -19,7 +33,9 @@
 			
 		</section>
 	</main>
-	<?php include "./vistas/inc/Script.php";?>
+	<?php 
+	}
+	include "./vistas/inc/Script.php";?>
 	
 	
 </body>
