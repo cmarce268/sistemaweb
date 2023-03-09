@@ -7,5 +7,5 @@
 	const SGBD="mysql:host=".SERVER.";dbname=".DB;
 
 	const METHOOD="ABC-256-CBS";
-	const CLA_SECR='$prestamos@2023';
-	const CLA_IV='2398'
+	const SECRET_KEY='$prestamos@2023';
+	const SECRET_IV='2398'
