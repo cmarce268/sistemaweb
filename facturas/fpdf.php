@@ -3,8 +3,8 @@
 * FPDF                                                                         *
 *                                                                              *
 * Version: 1.82                                                                *
-* Date:    2019-12-07                                                          *
-* Author:  Olivier PLATHEY                                                     *
+* Date:    2023-3-09                                                          *
+* Author:  Marcela                                                      *
 *******************************************************************************/
 
 define('FPDF_VERSION','1.82');

@@ -4,7 +4,7 @@
         <i class="fas fa-search fa-fw"></i> &nbsp; BUSCAR ITEM
     </h3>
     <p class="text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum delectus eos enim numquam fugit optio accusantium, aperiam eius facere architecto facilis quibusdam asperiores veniam omnis saepe est et, quod obcaecati.
+        Buscar ítem
     </p>
 </div>
 

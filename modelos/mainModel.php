@@ -85,5 +85,43 @@ class mainModel{
 				return $cadena;
 				
 			}
+/*-------funcion para verificar datos--------*/
+	protected static function verificar_datos(){
+
+		if(preg_match("/^".$filtro."$/",$cadena)){
+			return false;
+		}else{
+			return true;
+		}
+	}
+
+	/*-------funcion para verificar fechas--------*/
+	protected static function verificar_fechas($fecha){
+		$valores=explode(´-´, $fecha);
+		if(count($valores)== 3 && checkdate($valores[1], $valores[2], $valores[0])){
+			return false;
+
+			}else{
+				return true;
+
+			}
+	}
+
+/*-------funcion paginador de tablas--------*/
+	protected static function paginador_tablas($pagina,$Npaginas,$url,$botones){
+		$tabla=´<nav aria-label="Page navigation example"><ul class="pagination justify-content-center">´;
+
+		if($pagina==1){
+			$tabla.=´<li class¨="page-item disabled"><a class="page-link" href="#" tabindex=" -1"> Previous</a>
+			</li>´;
+		}else{
+
+		}
+		$tabla.=´</ul></nav>´;
+		return $tabla;
+
+
+	}
+
 
 		}

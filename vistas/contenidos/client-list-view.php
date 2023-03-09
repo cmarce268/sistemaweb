@@ -4,7 +4,7 @@
 		<i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE CLIENTES
 	</h3>
 	<p class="text-justify">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nostrum rerum animi natus beatae ex. Culpa blanditiis tempore amet alias placeat, obcaecati quaerat ullam, sunt est, odio aut veniam ratione.
+		LISTA DE CLIENTES
 	</p>
 </div>
 

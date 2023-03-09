@@ -4,7 +4,7 @@
         <i class="fas fa-hand-holding-usd fa-fw"></i> &nbsp; PRÉSTAMOS
     </h3>
     <p class="text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia fugiat est ducimus inventore, repellendus deserunt cum aliquam dignissimos, consequuntur molestiae perferendis quae, impedit doloribus harum necessitatibus magnam voluptatem voluptatum alias!
+        Pendiente de reserva
     </p>
 </div>
 

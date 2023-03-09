@@ -4,7 +4,7 @@
         <i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR ITEM
     </h3>
     <p class="text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque laudantium necessitatibus eius iure adipisci modi distinctio. Earum repellat iste et aut, ullam, animi similique sed soluta tempore cum quis corporis!
+        Nuevo elemento
     </p>
 </div>
 
